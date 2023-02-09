@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import style from "./Common.module.css";
 
-const User_Details = () => {
+const Issue_Details = () => {
   const [issue, setIssue] = useState({});
   const params = useParams();
   // console.log(params.number)
@@ -47,4 +47,4 @@ const User_Details = () => {
   );
 };
 
-export default User_Details;
+export default Issue_Details;
